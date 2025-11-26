@@ -1,0 +1,23 @@
+BACKEND
+1. First you have to activate the virtual environment by
+.venv/Scripts/activate
+Then the below command👇
+(demo-fastapi) PS C:\Users\SANJANA MUNDEWADI\Desktop\CJ\Projects\Mini Projects - TWT\Demo-fastapi> uv run main.py     
+
+it will start the application process
+
+then you need to open the URL mentioned in the terminal after the process starts.. 
+so after that it says there is no detail found or server not reached
+
+Fix:-
+in the url http://127.0.0.1:5000/
+add docs in the end Like this
+👇
+http:127.0.0.1:5000/docs
+
+then boom you get into the FastAPI docs created by default when you use fastapi libraries.
+
+FRONTEND
+2. frontend.py is saved in the root folder DEMO-FastAPI
+
+Just run "uv run streamlit run frontend.py" in the root folder and that's it.
